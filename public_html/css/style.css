@@ -1,0 +1,843 @@
+
+	/*	CONTENTS
+	=======================================================================
+	1.	MAIN
+	2.	TYPOGRAPHY
+	3.	ICON FONTS
+	4.	IMAGES
+	5.	LINKS
+	6.	NAVIGATION
+	7.	HOME
+	8.	STORY
+	9.	404
+	10.	CONTACT
+	11.	ABOUT
+	12.	HOVER
+	13.	UTILITY CLASSES
+	14.	DIAGNOSTICS
+	15.	MEDIA QUERIES
+	=======================================================================
+	*/
+
+
+/*	=======================================================================
+	1.	MAIN*/
+	
+	html {
+		max-width: 2500px;
+		
+	}
+
+
+
+/*	1.	END MAIN
+	=======================================================================*/
+
+
+
+/*	=======================================================================
+	2.	TYPOGRAPHY*/
+
+	@font-face {
+    font-family: 'bebasregular';
+    src: url('../fonts/bebas___-webfont.eot');
+    src: url('../fonts/bebas___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebas___-webfont.woff2') format('woff2'),
+         url('../fonts/bebas___-webfont.woff') format('woff'),
+         url('../fonts/bebas___-webfont.ttf') format('truetype'),
+         url('../fonts/bebas___-webfont.svg#bebasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*	2.	END TYPOGRAPHY
+	=======================================================================*/
+
+
+
+
+/*	=======================================================================
+	3.	ICON FONTS*/
+	
+/*	3.	END ICON FONTS
+	=======================================================================*/
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-4jitxr');
+	src:url('../fonts/icomoon.eot?#iefix-4jitxr') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?-4jitxr') format('truetype'),
+		url('../fonts/icomoon.woff?-4jitxr') format('woff'),
+		url('../fonts/icomoon.svg?-4jitxr#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+	content: "\e902";
+}
+.icon-pencil:before {
+	content: "\e906";
+}
+.icon-headphones:before {
+	content: "\e910";
+}
+.icon-phone:before {
+	content: "\e942";
+}
+.icon-user:before {
+	content: "\e971";
+}
+.icon-search:before {
+	content: "\e986";
+}
+.icon-menu:before {
+	content: "\e9bd";
+}
+.icon-web:before {
+	content: "\e9c9";
+}
+.icon-404:before {
+	content: "\e9ed";
+}
+.icon-top:before {
+	content: "\ea32";
+}
+.icon-mail:before {
+	content: "\ea83";
+}
+.icon-facebook:before {
+	content: "\ea8d";
+}
+.icon-instagram:before {
+	content: "\ea90";
+}
+.icon-twitter:before {
+	content: "\ea92";
+}
+.icon-soundcloud:before {
+	content: "\eac5";
+}
+.icon-linkedin:before {
+	content: "\eac8";
+}
+.icon-pinterest:before {
+	content: "\ead1";
+}
+
+
+
+
+	/*	=======================================================================
+	4.	IMAGES*/
+	
+/*	4.	END IMAGES
+	=======================================================================*/
+
+
+
+/*	=======================================================================
+	5.	LINKS*/
+
+/*	5.	END LINKS
+	=======================================================================*/
+
+
+
+
+/*	=======================================================================
+	6.	NAVIGATION*/
+
+	.icons {
+		
+		
+		margin-top: -1rem;
+		font-size: 1.2rem;
+		color: #8F8F8E;
+		display: inline-block;
+		padding-left: 2.4rem;
+		text-align: right;
+
+		
+
+	}
+		.icons li {
+				text-align: right;
+				display: inline;
+				margin: .1rem;
+				padding-top: .1rem;
+				opacity: .8;
+			}
+
+			.icons li:hover  {
+			color: #4C4C4C;
+			opacity: 1;
+
+			}
+
+	.primary-nav {
+	
+		padding-left: -2rem;
+	}
+	.primary-nav ul {
+
+	/*margin-left: 60rem;*/
+	margin-top: -3rem;
+	padding-bottom: 4rem;
+	text-transform: lowercase;
+/*	border-right: solid 1px #8F8F8E;*/
+
+	opacity: .8;
+
+/*	border: 1px solid red;*/
+
+
+
+
+}
+.primary-nav a {
+
+	font-size: 1rem;
+padding-right: 1rem;
+		color: #8F8F8E;
+		text-decoration: none;
+
+
+
+		
+	}
+
+	.primary-nav li {
+		margin-top: 1rem;
+		list-style: none;
+		text-align: left;
+		
+	}
+	.primary-nav a:hover {
+	color: #4C4C4C;
+
+}
+	
+/*	6.	END NAVIGATION
+	=======================================================================*/
+
+
+
+
+	/*	=======================================================================
+	7.	HOME*/
+	
+	.primary-header {
+		width: 100%;
+		margin: 0;
+		max-height: 500px;
+		max-width: 700px;
+		text-align: left;
+	/*	border: 1px solid red;*/
+
+		
+	}
+
+	.primary-header img {
+		width: 100%;
+		height: auto;
+		margin: 0;
+		
+		max-height: 500px;
+		max-width: 700px;
+		padding-left: 0;
+		padding-right: 0;
+	/*	padding-bottom: 2rem;*/
+		z-index: -1000;
+
+	}
+
+header li {
+	
+	padding: .5rem;
+	font-size: .8rem;
+	display: inline;
+		margin-top: 5rem;
+		margin-left: 5px;
+		margin-right: 5px;
+		
+		list-style-type: none;
+		text-decoration: none;
+		color: white;
+		font-family: helvetica, arial, sans-serif;
+		text-transform: lowercase;
+/*		border-left: 1px solid white;
+		border-right: 1px solid white;*/
+		opacity: .5;
+
+	}
+	header a {
+		text-decoration: none;
+	
+		color: white;
+}
+
+
+	header ul {
+		padding: 0;
+	}
+
+header li:hover {
+
+		opacity: 1;
+	}
+
+.mobile-nav {
+
+margin-top: -5rem;
+/*border: 1px solid red;*/
+
+}
+
+
+.body1, .body3 {
+margin-top: 0;
+	
+	padding-bottom: 5rem;
+	text-align: left;
+	
+	background: #262626;
+	
+	height: 250px;
+}
+
+.body1 h1 {
+	font-size: 6rem;
+}
+
+
+
+.hline { width:100%; height:1px; background: #DBDBDA; opacity:.7;
+ }
+
+.portrait {
+	text-align: center;
+	max-width: 350px;
+	float: left;
+/*	border: 1px solid red;*/
+	margin-top: -27rem;
+	margin-left: 45rem;
+
+	
+
+
+	}
+
+
+.portrait img {
+		width: 100%;
+		height: auto;
+		z-index: 9000;
+	
+
+
+}
+
+.body1, .body3 {
+	text-align: center;
+	padding-top: 3rem;
+	width: 100%;
+	margin-right: 0;
+	font-size: 10px;
+	margin-top: 2rem;
+}
+.col1 h1, .col2 h1, .col3 h1, .col4 h1, .col5 h1, .col6 h1 {
+	padding-top:5rem;
+	color: white;
+	display: inline;
+	text-align: center;
+	/*border-bottom: 1px dashed white;*/
+	padding-bottom: 2rem;
+	
+	padding: 0;
+	
+}
+.col1 h1:hover, .col2 h1:hover, .col3 h1:hover {
+	color: #262626;
+
+}
+.col1 a, .col2 a, .col3 a {
+	text-decoration: none;
+}
+
+.col1, .col2, .col3, .col4, .col5, .col6 {
+
+
+	padding-top: 1rem;
+	float: left;
+	margin: 0 1%;
+	
+	box-sizing: border-box;
+	background: #4C4C4C;
+	height: 280px;
+	padding-bottom: 2rem;
+	
+}
+
+.col1 h2, .col2 h2, .col3 h2, .col4 h2, .col5 h2, .col6 h2 {
+	padding: .2rem;
+	text-align: center;
+	font-size: 2rem;
+	color: #262626;
+	max-width: 100%;
+	font-family: 'bebasregular', helvetica, arial, sans-serif;
+	text-transform: lowercase;
+	letter-spacing: .1rem;
+	font-size: 1.5rem;
+	background: white;
+}
+
+.col1 p, .col2 p, .col3 p, .col4 p, .col5 p, .col6 p {
+	
+	font-size: .7rem;
+	font-family: helvetica, arial, sans-serif;
+	text-align: left;
+	color: white;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-bottom: 1rem;
+
+
+	}
+
+
+	.body2 {
+		margin-top: 2rem;
+		text-align: center;
+		height: 6rem;
+		margin-bottom: 2rem;
+		/*background: #eee;*/
+	}
+
+		.body2 img {
+		max-width: 100%;
+		height: auto;
+		opacity: .9;
+
+		}
+
+		.body2 img:hover {
+		opacity: 1;
+		}
+
+
+	.gallery {
+		
+
+/*		border: 1px solid #eee;*/
+		text-align: center;
+		
+		box-sizing: border-box;
+	}
+
+
+/*	7.	END HOME
+	=======================================================================*/
+
+
+
+/*	=======================================================================
+	8.	STORY*/
+
+
+	.dressproject {
+	/*	border: 1px solid red;*/
+		background: #eee;
+		height: 5rem;
+	}
+		.dressproject h1 {
+			margin-top: 1rem;
+			
+			font-size: 3rem;
+		font-family: "bebasregular", helvetica, arial, sans-serif;
+		background: white;
+		margin-bottom: 1rem;
+
+		
+		
+		}
+
+			.dressproject img {
+			max-width: 100%;
+			height: auto;
+			max-height: 400px;
+
+			
+			}
+
+		.projectdescrip p {
+			background: white;
+			max-width: 30%;
+			margin-left: 40%;
+			margin-top: -15rem;
+			
+
+
+		}
+
+		.sidephoto {
+				background: white;
+			float: right;
+			margin-top: -11.2rem;
+			max-width: 100%;
+			height: auto;
+
+		}
+
+
+
+
+/*	8.	END STORY
+	=======================================================================*/
+
+
+
+
+/*	=======================================================================
+	9.	404*/
+
+
+	.message {
+		
+		margin-top: 5rem;
+		line-height: .8;
+
+
+	}
+		.message h1 {
+		font-size: 3rem;
+		font-family: "bebasregular", helvetica, arial, sans-serif;
+
+		}
+
+		.message h2 {
+		font-size: 2rem;
+		font-family: helvetica, arial, sans-serif;
+	}
+
+	
+/*	9.	END 404
+	=======================================================================*/
+
+
+
+
+/*	=======================================================================
+	10.	CONTACT*/
+
+	.pagetitle {
+		font-size: 1.5rem;
+		width: 100%;
+		font-family: "bebasregular", helvetica, arial, sans-serif;
+		background: white;
+		color: black;
+		margin-top: 2rem;
+		text-align: center;
+		padding-bottom: 1rem;
+		padding-top: 1rem;
+
+	}
+	.contactinfo {
+		list-style: none;
+		display: inline;
+		margin-left:0;
+		text-align: center;
+
+
+
+	}
+		.contactinfo li {
+		margin: 0 1rem;
+		display: inline;
+		margin-top: 2rem;
+		font-size: 1rem;
+		text-align: center;
+
+
+
+		}
+.contact1 {
+	background: #eee;
+	margin: 0 25%;
+	margin-top: 2rem;
+		padding-bottom: 2rem;
+		text-align: center;
+		padding-top: 1rem;
+}
+
+.contact1 ul {
+
+	list-style: none;
+	/*border: 1px solid red;*/
+	text-align: center;
+
+	}
+		.contact1 li {
+			margin-top: -6rem;
+			text-align: center;
+			text-decoration: none;
+			list-style: none;
+		}
+
+		.info {
+
+			display: inline;
+			padding-left: 1rem;
+		}
+	
+/*	10.	END CONTACT
+	=======================================================================*/
+
+
+
+/*	=======================================================================
+	11.	ABOUT*/
+
+/*	11.	END ABOUT
+	=======================================================================*/
+
+
+
+
+/*	=======================================================================
+	12.	HOVER*/
+	
+/*	12.	END HOVER
+	=======================================================================*/
+
+
+
+/*	=======================================================================
+	13.	UTILITY CLASSES*/
+
+	.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+	
+/*	13.	END UTILITY CLASSES
+	=======================================================================*/
+
+
+
+/*	=======================================================================
+	14.	DIAGNOSTICS*/
+
+/*	14.	END DIAGNOSTICS
+	=======================================================================*/
+
+
+
+
+/*	=======================================================================
+	15.	MEDIA QUERIES*/
+	@media screen and (max-width: 1250px) {
+		.portrait {
+		opacity: .3;
+		}
+		.primary-nav {
+			opacity: .9;
+
+		
+	}
+
+	.primary-nav a {
+	font-size: 1.5rem;
+	color: #8F8F8E;
+
+}
+}
+@media screen and (max-width: 1050px) {
+		.dressproject {
+			
+			margin-top: 4rem;
+
+
+		}
+
+
+
+		.projectdescrip{
+			margin-left: -6rem;
+		}
+		.paraone {
+			margin-top: -5rem;
+		}
+		.dressproject p {
+			margin-top: 2rem;
+			width: 95%;
+			border: 1px solid #eee;
+			padding: 1rem;
+		}
+
+		.sidephoto {
+			margin-top: -19.5rem;
+
+		}
+
+
+
+
+
+}
+
+
+@media screen and (min-width: 1050px) {
+
+.sidephoto {
+			margin-top: -13rem;
+
+		}
+		.projectdescrip {
+			margin-top: 28rem;
+
+		}
+
+				.dressproject img {
+			max-height: 300px;
+
+
+		}
+
+
+	}
+	@media screen and (max-width: 882px) {
+		.primary-nav {
+			display: none;
+		}
+		.portrait {
+			display: none;
+		}
+
+		.primary-header {
+			text-align: center;
+		}
+		.body1 {
+
+		} 
+
+		.col1 h1, .col2 h1, .col3 h1, .col4 h1, .col5 h1, .col6 h1 {
+
+			font-size: 3rem;
+	}
+
+
+.contact1 {
+	margin: 0 0;
+	margin-top: 2rem;
+		padding-bottom: 2rem;
+		text-align: center;
+		padding-top: 1rem;
+	}
+
+}
+
+
+	@media screen and (min-width: 882px) {
+		.mobile-nav {
+			/*float: right;*/
+			display: none;
+		}
+
+
+
+		.primary-nav {
+			font-size: 2.2rem;
+			float: right;
+			margin-top: -24rem;
+			
+			font-family: helvetica, arial, sans-serif
+
+		}
+
+
+	}
+	
+
+		@media screen and (max-width: 600px) {
+
+			.col1 h2, .col2 h2, .col3 h2, .col4 h2, .col5 h2, .col6 h2 {
+				display: none;
+			}
+
+	
+		.col1, .col2, .col3 {
+			margin: 1rem 10%;
+			height: 150px;
+		}
+
+		.col1 p, .col2 p, .col3 p, .col4 p, .col5 p, .col6 p {
+			padding-bottom: 1rem;
+		}
+
+		.body1 { 
+			padding-top: 2rem;
+			height: 500px;
+
+		}
+		.contact1 {
+	margin: 0 0;
+	margin-top: 2rem;
+		padding-bottom: 2rem;
+		text-align: center;
+		padding-top: 1rem;
+	}
+
+	.projectdescrip{
+			margin-left: -6rem;
+			text-align: center;
+		}
+
+		.projectdescrip img {
+			margin-left: 2%;
+
+		}
+	.sidephoto {
+		margin-top: 2rem;
+				margin-left: 3.5rem;
+		text-align: center;
+		float: none;
+	}
+	.dressproject h1 {
+		padding-left: 2%;
+
+}
+
+.col4, .col5, .col6 {
+
+	margin: 0 10%;
+
+}
+
+.body3 {
+
+	height: 800px;
+}
+
+/*	15.	END MEDIA QUERIES
+	=======================================================================*/
